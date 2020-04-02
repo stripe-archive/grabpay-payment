@@ -6,7 +6,7 @@ GrabPay is currently in private beta, and only availabel to Stripe users in Sing
 
 ## Demo
 
-- [See the demo]()
+- [See the demo](https://e1k98.sse.codesandbox.io/)
 - [Fork on CodeSandbox](https://codesandbox.io/s/github/stripe-samples/grabpay-payment/tree/codesandbox)
 
 <img src="grabpay_payment_demo.gif" alt="GrabPay demo gif" align="center">
