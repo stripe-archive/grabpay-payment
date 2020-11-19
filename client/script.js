@@ -31,7 +31,7 @@ fetch("/config")
         return;
       }
       // Create PaymentIntent
-      const { clientSecret } = await createPaymetIntent(purchase);
+      const { clientSecret } = await createPaymentIntent(purchase);
       await pay({ clientSecret });
     });
 
@@ -45,7 +45,7 @@ fetch("/config")
     }
   });
 
-async function createPaymetIntent(purchase) {
+async function createPaymentIntent(purchase) {
   return await fetch(`/create-payment-intent`, {
     method: "POST",
     headers: {
